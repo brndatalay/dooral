@@ -3,9 +3,9 @@ error_reporting(0);
 require_once 'vendor/autoload.php';
 
 $dbHost = "localhost";
-$dbName = "londnet_dooral";
-$dbUser = "londnet_dooral";
-$dbPass = "5fgtcwUS";
+$dbName = "";
+$dbUser = "";
+$dbPass = "";
 
 $db = mysqli_connect($dbHost, $dbUser, $dbPass, $dbName);
 
